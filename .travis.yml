@@ -1,0 +1,11 @@
+language: php
+
+# See supported version on: https://www.php.net/supported-versions.php
+matrix:
+  include:
+  - php: 7.2
+  - php: 7.3
+  - php: 7.4
+  - php: nightly
+
+  before_script: composer install
